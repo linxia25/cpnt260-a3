@@ -17,8 +17,8 @@ A website for online sales of high-end furniture!
 - [wooden-table,jpg](https://www.pexels.com/photo/brown-wooden-table-with-chair-3097112/) by Nugroho Wahyu.
 
 ## Links
-- GH repo: https://github.com/linxia25/cpnt260-a2.git
-- GH Pages site: https://linxia25.github.io/cpnt260-a2/
+- GH repo: https://github.com/linxia25/cpnt260-a3
+- GH Pages site: https://linxia25.github.io/cpnt260-a3/
 
 ## File/directory
 - /css
