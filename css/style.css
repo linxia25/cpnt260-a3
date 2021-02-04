@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+
+body {
+  margin: 0 auto;
+  width: 50vw;
+}
+
+.logo {
+margin-top: 3vh;
+}
+
+.site-name {
+  width: 200px;
+  font-size: 21px;
+  font-family: ubuntu;
+  color: rgb(253, 48,25);
+  position: relative;
+  left: 175px;
+  top: -30px;
+}
+
+/*font*/
+h2 {
+  font-family: 'open sans';
+  color: orange;
+}
+
+p {
+  max-width: 75ch;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*social media*/
+.media {
+  display: flex;
+  justify-content:space-between;
+  list-style: none;
+  width: 100px;
+
+  position: relative;
+  left: 25vw;
+}
+
+.media li i {
+font-size: 30px;
+}
+
+/*navigation,Mobile First*/
+nav div a {
+  width: fit-content;
+  color: black;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: orange;
+}
+
+.register {
+  background-color: orange;
+}
+
+@media screen and (min-width: 600px) {
+nav {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  list-style: none;
+}
+  
+nav a {
+  margin-right: 3vw;
+  color: black;
+  font-size: 24px;
+  display: block;
+  text-decoration: none;
+}
+  
+a:hover {
+  color: red;
+  }
+  
+a:active {
+  color: orange;
+  }
+  
+.register {
+  background-color: orange;
+  }
+  
+
+/*Employees Testimonials*/
+.et {
+  display:flex;
+  height: fit-content;
+}
+
+.et span {
+  margin-right: 10px;
+  flex:1;
+  padding: 25px 25px;
+  font-size: 25px;
+  background-color: #fff7e6;
+}
+
+/*Gallery*/
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  justify-items: center;
+  grid-gap:10px;
+}
+
+figure img:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+figure {
+margin: auto;
+border: 1px solid grey;
+font-size:0;
+}
+
+figure img {
+  object-fit: contain;
+  width: 100%;
+  margin: 0;
+}
+
+figure figcaption {
+  min-width: 30ch;
+  background-color: rgba( 255, 128, 0, .3);
+  text-align: center;
+  
+  font-size: 1.2rem;
+  font-family: rubik;
+}
+
+/*More Information*/
+
+.more {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.more a {
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  
+  color: white;
+  background-color: orange;
+  
+  text-decoration: none;
+}
+
+footer {
+  height: 50px;
+  background-color: dimgray;
+  
+  text-align: center;
+  margin-top: 50px;
+
+  color: white;
+  font-size: 20px;
+  line-height: 50px;
+}
